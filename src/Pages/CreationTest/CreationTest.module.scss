@@ -1,0 +1,37 @@
+.wrapper {
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(176, 247, 255, 1) 18%,
+    rgba(110, 209, 245, 1) 73%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background-repeat: repeat-x;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-size: 400% 100%;
+  animation: AnimationName 8s linear infinite;
+
+  .container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+
+    .button__back_to_the_test {
+      position: absolute;
+      top: 30px;
+      right: 20px;
+    }
+  }
+}
+
+@keyframes AnimationName {
+    0% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: -33% 50%;
+    }
+  }
+  

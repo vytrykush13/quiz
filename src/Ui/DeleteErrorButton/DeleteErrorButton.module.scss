@@ -1,0 +1,27 @@
+.wrapper{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+
+    &::before, &::after{
+        content: '';
+        width: 20px;
+        height: 2px;
+        background: rgba(255, 0, 0, 0.616);
+        position: absolute;
+        
+        top: 9px;
+        left: 0px;
+    }
+
+    &::before{
+        rotate: 45deg;
+    }
+
+    &::after{
+        rotate: -45deg;
+    }
+}

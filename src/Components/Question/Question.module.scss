@@ -1,0 +1,46 @@
+.question{
+    padding: 10px 0;
+
+    .line{
+        height: 3px;
+        background: white;
+        margin: 10px 0;
+    }
+
+    .title{
+        color: black;
+        text-align: center;
+        word-break: break-all;
+    }
+
+    .answers{
+        width: 500px;
+        margin: 0 auto;
+
+        .answer{
+            padding: 10px;
+            margin: 20px 0;
+            border-radius: 8px;
+            letter-spacing: 1px;
+            transition: all 0.3s linear;
+            cursor: pointer;
+            
+            &:hover{
+                background-color: white;
+                transition: all 0.3s linear;
+            }
+        }
+
+        .answer.correct{
+            background: #2EB371;
+            color: white;
+            transition: all 0.3s linear;
+        }
+
+        .answer.wrong{
+            background: #E8472E;
+            color: white;
+            transition: all 0.3s linear;
+        }
+    }
+}

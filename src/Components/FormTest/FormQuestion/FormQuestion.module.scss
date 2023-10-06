@@ -1,0 +1,50 @@
+.question{
+    background: #4c7cc4;
+    width: 400px;
+    border-radius: 13px;
+    padding: 30px 15px;
+    margin: 20px;
+    position: relative;
+
+    .title{
+        display: flex;
+        justify-content: center;
+    }
+
+    .answers{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    
+        .answer{
+            margin: 10px;
+            width: 160px;
+            display: flex;
+            position: relative;
+
+            .checkBox{
+                position: absolute;
+                right: 10px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+
+
+    }
+
+    &:hover > .wrapper{
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+
+    .wrapper{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+}
