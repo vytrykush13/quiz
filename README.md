@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -85,4 +84,3 @@ Learn More
 You can learn more in the Create React App documentation.
 
 To learn React, check out the React documentation.
->>>>>>> 84f26f5f546c3d9a73bfbc7ad6da91572d7aeea5
