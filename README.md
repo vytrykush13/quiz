@@ -27,7 +27,7 @@ Take Existing Tests: Users can participate in tests that have already been creat
 
 ## Installation
 ```
-git clone https://github.com/your-username/Quiz.git
+git clone https://github.com/vytrykush13/Quiz.git
 ```
 
 ## Install dependencies
