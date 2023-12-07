@@ -67,6 +67,7 @@ export const Test = createSlice({
       state.questions = questions;
       state.currentQuestionIndex = 0;
       state.testSatus = 'in progres';
+      state.correctAnsewrs = 0;
     },
 
     checkAnswer(state, action: PayloadAction<{ questionId: string; answerIndex: number }>) {

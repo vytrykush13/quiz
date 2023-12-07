@@ -32,7 +32,7 @@ const FormTest = () => {
   return (
     <div>
       <div className={css.input}>
-        <Input value={title} maxLenght={25} onChange={(value) => dispatch(setTitle(value))} />
+        <Input value={title} maxLength={25} onChange={(value) => dispatch(setTitle(value))} />
       </div>
 
       <ButtonPrimary value="Add Question" onClick={() => dispatch(addQuestion())} />
